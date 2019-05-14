@@ -1,12 +1,7 @@
 # Image-Stegano 
-#### A tool to analyze and implement various image steganography methods in Java 
+Steganography is the craft of concealing the way that correspondence is occurring, by concealing data in other data. A wide range of transporter document arrangements can be utilized, however advanced pictures are the most prevalent on account of their recurrence on the Internet. For concealing mystery data in pictures, there exists a vast assortment of steganographic methods some are more unpredictable than others and every one of them have separate solid and feeble focuses. Diverse applications have distinctive necessities of the steganography method utilized. For instance, a few applications may require outright intangibility of the mystery data, while others require a bigger mystery message to be covered up.
 
-"Steganography is the art and science of communicating in a way which hides the existence of the
-communication. In contrast to Cryptography, where the enemy is allowed to detect, intercept and modify
-messages without being able to violate certain security premises guaranteed by the cover message with
-the embedded cryptosystem. The goal of Steganography is to hide messages inside other harmless
-messages in a way that does not allow any enemy to even detect that there is a second message
-present". In image steganography the information is hidden exclusively in images.
+In the following project we are concentrating on least significant bit of the image and modifying it in spatial domain. We have broken down and concluded about the variations of this algorithm as far as efficiency and hiding capacity of an image. Viability of the algorithm is estimated by client assessments deciding so, all things considered change to the pictures wound up evident.
 
 #### Application of Image Steganography
 
@@ -50,22 +45,5 @@ This tool also provides following additional options-
 2. Altering Threshold: ![Altering Threshold](./screenshots/threshold.png)
 3. Extracting Metadata: ![Extracting Metadata](./screenshots/meta_data.png)
 4. Hidden Data in PNG chunk: ![PNG Check](./screenshots/png_check.png)
-
-#### How to start tool
-
-1. Clone this Repository / Download zip 
-2. Open terminal (Ctrl + Alt + T)
-3. Type `cd /path/to/repository/ImageStegano/dist/` 
-4. Type `java -jar ImageStegano.jar`
-
-#### Dependencies
-* Image-Stegano tool uses https://github.com/drewnoakes/metadata-extractor library for metadata extraction
-
-### How to deploy the project
-
-This tool is being developed in NetBeans IDE. Import(or open) project in netbeans and add two jar files as libraries from libraries folder <https://github.com/varunon9/Image-Stegano/tree/master/libraries>.
-
-#### Working demo of Image-Stegano on youtube
-Visit: https://youtu.be/Ap-1l0lWnpo
 
 
